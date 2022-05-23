@@ -1,0 +1,106 @@
+body {
+  color: #CEC8B6;     /* Text color */
+	background-color:#787054;  /* Background color */
+	font-family:'Lora',serif;
+	font-style: 17px;
+	text-align: justify;
+}
+   h1 {
+	    color: #A39A7B;
+	    font-size: 29px;
+	    font-family:'Bebas Neue',curisve ;
+	    text-align: center;
+
+}
+    h2,h3 {
+	    color: #A39A7B;
+	    font-weight: lighter;
+	    font-size: 22px;
+ 
+}
+     a {
+   	 text-decoration: none;
+   	 color: #0D0B08;
+   	 font-weight: bold;
+
+
+}
+      a:hover {
+   	  color: darkblue;
+
+}
+     #logo {
+     	border-radius: 10%;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+ }
+
+     .container {
+     	width: 1250px auto;
+     	margin: 10 px auto;
+     	padding: 80px;
+     	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0, 0, 3);
+     	border-radius: 4px;
+     	text-align: justify;
+
+
+
+ }
+
+@media(max-width: 760px ) {
+     	.container { width: 600px;
+     		}
+  	}
+
+@media (max-width: 500px) {
+	.container{ width: 400px;
+	}     }
+
+
+
+
+
+
+
+     .card-white {
+     	padding: 40px;
+     	box-shadow: 0px 10px 30px rgba(0, 0, 0, .1);
+     	border-radius: 4px;
+     	margin: 20px;
+     	text-align: center;
+     	background-color: #3F3827;
+
+  }
+
+      .btn-grey{
+      	background-color: #0D0B08;
+      	color: lightgrey;
+      	padding: 10px 15px;
+      	border-radius: 4px;
+      	 }
+
+      .list-inline {
+      	list-style: none;
+      	padding-left: 0px;
+
+}
+     .list-inline li {
+
+     	display: inline;
+     	padding: 10px;
+
+}
+     .list-inline i {
+     	font-size: 38 px;
+ }
+
+
+     #introduction p { 
+     	margin-bottom: 40px;
+	}
+
+
+
+
